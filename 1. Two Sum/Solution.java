@@ -5,6 +5,7 @@ class Solution {
         int[] answer = new int[2];
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();  
         for (int i = 0; i < nums.length; i ++) {
+            // 建立数字和其坐标位置之间的映射
             map.put(Integer.valueOf(nums[i]), Integer.valueOf(i));
         }
 
